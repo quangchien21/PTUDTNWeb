@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+}
+
+header .anh {
+  height: 140px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+header .tieude {
+  /* text-align: center; */
+  height: 50px;
+  width: 100%;
+  font-size: 25px;
+}
+header .logo {
+  height: 135px;
+  width: auto;
+}
+footer {
+  text-align: center;
+  font-style: italic;
+}

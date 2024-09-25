@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 5: HTML + CSS</title>
+    <style>
+      table {
+        text-align: center;
+        border-collapse: collapse;
+        border-color: rgb(51, 0, 255);
+      }
+      h1 {
+        text-align: center;
+        color: red;
+      }
+      .tieudebang {
+        background-color: red;
+        color: #fff;
+        font-weight: bold;
+      }
+      .tieudecot {
+        color: rgb(255, 202, 196);
+      }
+      .letrai {
+        text-align: left;
+      }
+      .blue {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chương trình học - ngành lập trình</h1>
+    <table width="100%" border="1" cellpadding="0" cellspacing="0">
+      <tr class="tieudebang">
+        <td rowspan="2">Nhóm học phần</td>
+        <td rowspan="2">Môn học</td>
+        <td colspan="2">Số tiết</td>
+      </tr>
+      <tr class="tieudebang">
+        <td>Lý thuyết</td>
+        <td>Thực hành</td>
+      </tr>
+      <tr>
+        <td rowspan="6" class="tieudecot">
+          I<br />
+          Tin học văn phòng
+        </td>
+        <td class="letrai">Hệ điều hành Window</td>
+        <td>3</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="letrai">Sử dụng Internet</td>
+        <td>3</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="letrai">Soạn Thảo văn bản với MS Word</td>
+        <td>3</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="letrai">Tạo bài trình diễn với MS Powerpoint</td>
+        <td>3</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="letrai">Xử lý số liệu với MS Excel</td>
+        <td>3</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="letrai">Tạo trang web với MS FrontPage</td>
+        <td>3</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td rowspan="2" class="tieudecot">
+          II <br />
+          Kỹ thuật lập trình(VB.Net)
+        </td>
+        <td class="letrai">Nhập môn lập trình</td>
+        <td>10</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td class="letrai">Kỹ thuật lập trình</td>
+        <td>36</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td class="letrai" class="blue">.........</td>
+      </tr>
+    </table>
+  </body>
+</html>

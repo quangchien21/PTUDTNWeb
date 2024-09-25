@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 6: HTML + CSS</title>
+    <style>
+        .cangiua{
+            text-align: center;
+        }
+        .mauchu{
+            color: rgb(255, 192, 222);
+        }
+        table{
+            background-color: skyblue;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 class="cangiua">Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
+    <form>
+        <table border="1" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="hoten" value = "Đặng Quang Chiến" size="50"/></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" name="diachi" value = "Hải Phòng"/></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text" name="dienthoai"  value ="12345678"/></td>
+        </tr>
+        <tr>
+            <td>Phái</td>
+            <td>
+            <input type="radio" name="phai" /> Nam
+            <input type="radio" name="phai" /> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Nghề nghiệp</td>
+            <td>
+            <select>
+                <option>Giáo viên</option>
+                <option>Bác sĩ</option>
+                <option>Nha sĩ</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Chọn sản phẩm</td>
+            <td><select name="sanpham" size="4" multiple = "multiple">
+                <option value = "kemdanhrang">Kem đánh răng</option>
+                <option value="suatam">Sữa tắm</option>
+                <option value="botgiat">Bột giặt</option>
+                <option value="Daugoi">Dầu gội đầu</option>
+            </td>
+        </tr>
+        <tr>
+            <td>Số người dự đoán tham gia</td>
+            <td><input type="text" name="songuoithamgia" value = "250000"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cangiua">
+                <input type="submit" name="submit" value = "Đồng ý"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="cangiua mauchu ">Bạn đã đăng kí thành công</td>
+        </tr>
+        </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+body {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header {
+  width: 1200px;
+  height: 200px;
+  background-color: white;
+}
+#header-top {
+  width: 1200px;
+  height: 145px;
+  background-color: red;
+}
+#logo {
+  width: 400px;
+  height: 145px;
+  float: left;
+}
+#logo img {
+  margin-left: 80px;
+}
+#search {
+  width: 400px;
+  height: 145px;
+  float: left;
+}
+#search input {
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 50px;
+  margin-left: 25px;
+  width: 80%;
+}
+#info-user {
+  width: 400px;
+  height: 145px;
+  float: left;
+}
+#avatar {
+  width: 100px;
+  height: 145px;
+  float: left;
+}
+#avatar img {
+  margin-left: 15px;
+  margin-top: 40px;
+}
+#info {
+  width: 300px;
+  height: 145px;
+  float: left;
+}
+#info span {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 23px;
+  color: white;
+}
+#info div {
+  margin-top: 45px;
+}
+#menu {
+  margin-top: 5px;
+  width: 1200px;
+  height: 50px;
+  background-color: red;
+}
+.main-menu {
+  list-style-type: none;
+  height: 50px;
+  margin: 0 0 0 0;
+}
+.main-menu li {
+  float: left;
+  color: white;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.main-menu li:hover {
+  background-color: blue;
+  height: 35px;
+}
+#main {
+  margin-top: 5px;
+  width: 1200px;
+  height: 1120px;
+}
+#main-left {
+  width: 900px;
+  height: 600px;
+  float: left;
+}
+.pro {
+  width: 100%;
+  height: 560px;
+}
+.pro-title {
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  border-top: 5px solid rgb(90, 84, 84);
+  border-top-right-radius: 50px;
+  padding-top: 10px;
+}
+.pro-title span {
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.pro-main {
+  width: 100%;
+  height: 100%;
+}
+.pro-main ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+}
+.pro-main ul li {
+  float: left;
+  width: 215px;
+  height: 253px;
+  margin: 0;
+  margin-top: 1px;
+  text-align: center;
+}
+.name-pro {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.price-pro {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  color: red;
+}
+#main-right {
+  width: 298px;
+  height: 1064px;
+  float: left;
+  border: 1px solid rgb(118, 118, 118);
+}
+.quangcao-title {
+  width: 298px;
+  height: 25px;
+  background-color: rgb(140, 222, 247);
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 4px;
+}
+.quangcao-title span {
+  color: black;
+  font-weight: bold;
+}
+.anh {
+  width: 100%;
+  height: 100%;
+  padding-top: 1px;
+}
+.space {
+  padding-top: 10px;
+}
+
+#footer {
+  margin-top: 5px;
+  width: 1200px;
+  height: 50px;
+}
+#footer p {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #999;
+}

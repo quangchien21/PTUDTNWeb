@@ -1,0 +1,34 @@
+body {
+  width: 770px;
+  height: 430px;
+  margin: 0 auto;
+}
+#tieude {
+  width: 770px;
+  height: 40px;
+  background-color: blue;
+  .tieude-left {
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 25%;
+    height: 30px;
+    background-color: aqua;
+    .tieude-left span {
+      margin-top: 15px;
+    }
+  }
+  .tieude-right {
+    float: left;
+    width: 70%;
+    height: 35px;
+    background-color: aquamarine;
+    border-style: solid double;
+  }
+}
+#sanpham {
+  margin-top: 5px;
+  width: 770px;
+  height: 385px;
+  background-color: brown;
+}
